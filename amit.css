@@ -1,0 +1,37 @@
+body{
+background-color: black;
+font-family: sans-serif;
+}
+.container{
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: middle;
+flex-direction: column;
+}
+.text{
+
+    color:red;
+    margin-bottom: 25px;
+font-size: 20px;
+letter-spacing: 2px;
+}
+.loading{
+width: 100%;
+height: auto;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+
+.loading .line-box{
+padding:  2px;
+width: 40%;
+height: 20px;
+border: 2px solid red;
+border-radius: 20px;
+background-color:2px solid #267191;
+
+}
+
